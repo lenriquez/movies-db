@@ -1,0 +1,10 @@
+#inner-flex-container {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 250px);
+}
+
+.thumbnail > img {
+  height: 185px; 
+  width: 278px;
+}
