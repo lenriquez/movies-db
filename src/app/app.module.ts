@@ -8,14 +8,13 @@ import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { DetailsComponent } from './details/details.component';
 
-import { SearchService } from './search.service'
-
 import { routing } from "./app.routing";
 import { 
   DropdownDirective,
   ImageUrlPipe,
   TranslateGenrePipe,
-  GenreService } from './shared/';
+  GenreService,
+  SearchService } from './shared/';
 
 @NgModule({
   declarations: [

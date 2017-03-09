@@ -1,7 +1,7 @@
 import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { Observable } from 'rxjs';
 
-import { SearchService } from '../search.service';
+import { SearchService } from '../shared';
 
 @Component({
   selector: 'mdb-header',
