@@ -9,11 +9,13 @@ import { HomeComponent } from './home/home.component';
 import { DetailsComponent } from './details/details.component';
 
 import { SearchService } from './search.service'
-import { GenreService } from './genre.service'
 
 import { routing } from "./app.routing";
-import { DropdownDirective, ImageUrlPipe } from './shared/';
-import { TranslateGenrePipe } from './translate-genre.pipe';
+import { 
+  DropdownDirective,
+  ImageUrlPipe,
+  TranslateGenrePipe,
+  GenreService } from './shared/';
 
 @NgModule({
   declarations: [
